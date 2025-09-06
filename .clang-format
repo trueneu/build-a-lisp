@@ -1,5 +1,5 @@
-DisableFormat: false
-
 BasedOnStyle: google
 UseTabs: Never
 IndentWidth: 2
+
+DisableFormat: false
