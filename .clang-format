@@ -1,1 +1,5 @@
-"DisableFormat": true
+DisableFormat: false
+
+BasedOnStyle: google
+UseTabs: Never
+IndentWidth: 2

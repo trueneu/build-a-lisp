@@ -1,8 +1,8 @@
 build:
-	@cc -std=c99 -g -Wall prompt.c -ledit -o prompt
+	@cc -std=c99 -g -Wall parsing.c mpc.c -ledit -lm -o lispy
 
 run: build
-	@./prompt
+	@./lispy
 
 bear:
 	@bear -- make build
