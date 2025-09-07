@@ -1,5 +1,5 @@
 build:
-	@cc -std=c99 -g -Wall parsing.c mpc.c -ledit -lm -o lispy
+	@cc -std=c99 -g -Wall lispy.c mpc.c -ledit -lm -o lispy
 
 run: build
 	@./lispy
